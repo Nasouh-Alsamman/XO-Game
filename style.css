@@ -1,0 +1,42 @@
+*{
+    background-image: url("2.jpg");
+    background-color: #cccccc;
+  
+}
+.game{
+    width: 500px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+}
+
+.title{
+    font-size: 50px;
+    background: rgba(223, 0, 123, 0.877);
+    padding: 5px 0;
+    margin: 5px 0;
+    height: 65px;
+
+}
+
+span{
+color: #fa0;
+
+}
+
+.square{
+    width: 160px;
+    height: 160px;
+    background:rgb(2, 71, 134) ;
+    float: left;
+    margin: 2px;
+    font-size: 100px;
+}
+
+.square:hover{
+
+    background:rgb(0, 33, 63) ;
+    cursor: pointer;
+}
